@@ -9,7 +9,7 @@ public class Trainee extends Employee {
         return lastName;
     }
 
-    public void setLastName() {
+    public void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
