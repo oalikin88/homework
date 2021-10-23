@@ -17,7 +17,7 @@ public class Trainee extends Employee {
         return teamLeaderName;
     }
 
-    public void setTeamLeaderName() {
+    public void setTeamLeaderName(String teamLeaderName) {
         this.teamLeaderName = teamLeaderName;
     }
 
