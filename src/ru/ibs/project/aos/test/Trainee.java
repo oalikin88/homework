@@ -10,7 +10,7 @@ public class Trainee extends Employee {
     }
 
     public void setLastName() {
-        this.lastName = name;
+        this.lastName = lastName;
     }
 
     public String getTeamLeaderName() {
