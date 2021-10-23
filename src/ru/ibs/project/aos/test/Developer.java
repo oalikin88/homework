@@ -10,7 +10,7 @@ public class Developer extends Employee {
         return project;
     }
 
-    public void setProject() {
+    public void setProject(String project) {
         this.project = project;
     }
 
@@ -18,7 +18,7 @@ public class Developer extends Employee {
         return skill;
     }
 
-    public void setSkill() {
+    public void setSkill(String skill) {
         this.skill = skill;
     }
 
