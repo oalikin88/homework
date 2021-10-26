@@ -2,7 +2,9 @@ package ru.ibs.project.aos.test;
 
 abstract public class Employee {
 
+
     private String name;
+    private String lastName;
     private int age;
 
     public String getName() {
@@ -19,6 +21,14 @@ abstract public class Employee {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public String department() {
